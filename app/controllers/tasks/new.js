@@ -4,8 +4,6 @@ export default Ember.Controller.extend({
 	actions: {
 		addTask: function(){
 
-			alert('hello world');
-
 			var title = this.get('title')
 			var description = this.get('description')
 			var date = this.get('date')
@@ -19,7 +17,7 @@ export default Ember.Controller.extend({
 
 			newTask.save();
 
-			this.setProerties({
+			this.setProperties({
 				title: '',
 				description: '',
 				date: ''
