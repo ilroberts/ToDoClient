@@ -3,6 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"new",
+				"newTask"
+			],
+			[
+				"ti",
+				"title"
+			]
 		]
 	},
 	"buffers":
@@ -40,21 +48,50 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/iwan/Development/ember-quickstart"
+		"/C/Users/iwan/Development/ember-quickstart",
+		"/C/Users/iwan/Development/ember-quickstart/app",
+		"/C/Users/iwan/Development/ember-quickstart/app/controllers",
+		"/C/Users/iwan/Development/ember-quickstart/app/controllers/tasks",
+		"/C/Users/iwan/Development/ember-quickstart/app/routes",
+		"/C/Users/iwan/Development/ember-quickstart/app/routes/tasks",
+		"/C/Users/iwan/Development/ember-quickstart/app/templates",
+		"/C/Users/iwan/Development/ember-quickstart/app/templates/tasks",
+		"/C/Users/iwan/Development/ember-quickstart/bower_components/bootstrap",
+		"/C/Users/iwan/Development/ember-quickstart/bower_components/moment/min",
+		"/C/Users/iwan/Development/ember-quickstart/config"
 	],
 	"file_history":
 	[
+		"/C/Users/iwan/Development/ember-quickstart/app/app.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/router.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/helpers/formatDate.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/routes/tasks.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/controllers/tasks.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/controllers/tasks/new.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/templates/tasks.hbs",
+		"/C/Users/iwan/Development/ember-quickstart/app/controllers/tasks/edit.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/templates/tasks/edit.hbs",
+		"/C/Users/iwan/Development/ember-quickstart/ember-cli-build.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/routes/tasks/new.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/models/task.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/adapters/application.js",
+		"/C/Users/iwan/Development/ember-quickstart/package.json",
+		"/C/Users/iwan/Development/ember-quickstart/config/environment.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/controllers/task/new.js",
+		"/C/Users/iwan/Development/ember-quickstart/app/templates/application.hbs",
+		"/C/Users/iwan/Development/ember-quickstart/app/templates/tasks/new.hbs",
 		"/C/Users/iwan/Desktop/Custom.binds"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 138.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -62,6 +99,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jshint",
+			"tasks",
+			"welcome"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -86,7 +126,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -123,7 +163,7 @@
 	"project": "ember-quickstart.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -161,7 +201,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 225.0,
+	"side_bar_width": 435.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
