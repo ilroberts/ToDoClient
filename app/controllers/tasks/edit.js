@@ -14,9 +14,9 @@ export default Ember.Controller.extend({
 				task.set('title', title);
 				task.set('description', description);
 				task.set('date', new Date(date));
+				task.save();
 			});
-			
-			task.save();
+				
 			self.transitionTo('tasks');
 		}
 	}

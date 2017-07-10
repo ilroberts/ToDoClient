@@ -6,8 +6,10 @@ module.exports = function(environment) {
     environment: environment,
     contentSecurityPolicy: {
       'script-src': "'self' 'unsafe-eval' apis.google.com",
-      'frame-src': "'self' https://*.firebaseapp.com",
-      'connect-src': "'self' wss://*.firebaseio.com https://*.googleapis.com"
+      'frame-src': "'self' https://*.firebaseapp.com api.travis-ci.org travis-ci.org",
+      'connect-src': "'self' wss://*.firebaseio.com https://*.googleapis.com api.travis.org",
+      "object-src": "'self' travis-ci.org",
+      "style-src": "'self' 'unsafe-inline'"
     },
     firebase: {
       apiKey: 'AIzaSyDox25Gx5f-2Vkh_E0o4i-PhR10hYSrIog',
