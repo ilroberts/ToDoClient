@@ -10,9 +10,10 @@ export default Ember.Controller.extend({
 
 			// create a new task
 			var newTask = this.store.createRecord('task', {
+				id: new Date().getTime(),
 				title: title,
 				description: description,
-				date: new Date(date)
+				dueDate: new Date(date)
 			});
 
 			newTask.save();
@@ -20,7 +21,7 @@ export default Ember.Controller.extend({
 			this.setProperties({
 				title: '',
 				description: '',
-				date: ''
+				dueDate: ''
 			});
 
 		}
