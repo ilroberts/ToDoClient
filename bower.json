@@ -1,0 +1,20 @@
+{
+  "name": "ember-quickstart",
+  "description": "Small description for ember-quickstart goes here",
+  "main": "",
+  "authors": [
+    "illroberts <iwanr@kainos.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ilroberts/ToDoClient",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "momentjs#^2.18.1"
+  }
+}
