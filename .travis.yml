@@ -22,4 +22,3 @@ before_script:
   - bower install
 
 script:
-  - npm test
